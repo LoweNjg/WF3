@@ -1,0 +1,23 @@
+#conteneur{
+    border: 2px solid #000;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+}
+header{
+    height:90px;
+    background: green;
+}
+nav{
+    height: 30px;
+    background: purple;
+}
+section{
+    background: yellow;
+    height: 380px;
+    margin: 10px;
+}
+footer{
+    height:80px;
+    background: green;
+}

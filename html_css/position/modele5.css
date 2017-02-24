@@ -1,0 +1,47 @@
+#conteneur{
+    border: 2px solid #000;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+}
+header{
+    height:90px;
+    background: green;
+}
+nav{
+    height: 30px;
+    background: purple;
+}
+#milieu{
+    height: 380px;
+    margin: 10px;
+}
+.casea, .caseb{
+    float: left;
+    height: 190px;
+    width: 50%;
+}
+.casec, .cased{
+    float: left;
+    height: 190px;
+    width: 50%
+}
+.casea{
+    background: green;
+}
+.caseb{
+    background: orange;
+}
+.casec{
+    background: cyan;
+}
+.cased{
+    background: blue;
+}
+footer{
+    height:80px;
+    background: green;
+}
+.clear{
+    clear: both;
+}

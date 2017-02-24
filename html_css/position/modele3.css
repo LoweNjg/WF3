@@ -1,0 +1,27 @@
+#conteneur{
+    width: 80%;
+
+}
+
+.gauche, .droite{
+    float: left;
+}
+.gauche{
+width: 50%;
+height: 733px;
+background-color: blue;
+
+}
+.droite{
+    width: 50%;
+    height: 733px;
+    background-color: purple;
+}
+footer{
+    background-color: yellow;
+    height: 70px;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}

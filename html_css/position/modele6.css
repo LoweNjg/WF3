@@ -1,0 +1,65 @@
+body{
+    color: #fff;
+}
+#conteneur{
+    border: 2px solid #000;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+}
+header{
+    height:90px;
+    background: purple;
+}
+nav{
+    height: 30px;
+    background: yellow;
+}
+#milieu{
+    height: 380px;
+
+}
+.casea, .caseb, .casec{
+    float: left;
+    height: 150px;
+    width: 25%;
+}
+.casea{
+    background: red;
+}
+.caseb{
+    width: 50%;
+    background: blue;
+}
+.casec{
+    background: green;
+}
+.cased{
+    height: 150px;
+    background: pink;
+}
+.casee, .casef, .caseg{
+    float: left;
+    width: 25%;
+    height: 150px;
+}
+.casee{
+    background: purple;
+    width: 25%;
+}
+.casef{
+    background: red;
+    width: 50%;
+}
+.caseg{
+    background: grey;
+    width: 25%;
+}
+
+footer{
+    height:100px;
+    background: red;
+}
+.clear{
+    clear: both;
+}
