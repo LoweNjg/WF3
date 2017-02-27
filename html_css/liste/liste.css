@@ -1,0 +1,12 @@
+ul.fruit{
+    list-style-type: none;
+}
+ul.fruit li{
+    float: left;
+    margin: 15px;
+    background: url(coeur.jpg) left center no-repeat;
+    padding: 0 0 0 32px;
+}
+hr{
+    clear: both;
+}
