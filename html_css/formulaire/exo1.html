@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire 2</title>
+    <link rel="stylesheet" href="exo1.css">
+</head>
+<body>
+    <form method="post" enctype="">
+    <div class="conteneur1">
+    <fieldset>
+        <legend>Informations</legend>
+
+            <label for="nom">Nom</label><br />
+            <input type="text" id="nom "name="nom" placeholder="nom" /><br />
+
+            <label for="prenom">Prénom</label><br />
+            <input type="text" id="prenom "name="prenom" placeholder="prénom" /><br />
+
+            <label for="telephone">Téléphone</label><br />
+            <input type="tel" pattern="[0-9]{10}" id="telephone" maxlength="10" placeholder="Téléphone" /><br />
+
+            <label for="ville">Ville</label><br />
+            <input type="text" id="ville "name="ville" placeholder="Ville" /><br />
+
+            <label for="cp">Code Postal</label><br />
+            <input type="text" id=cp name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" placeholder="Code postal" /><br />
+
+            <label for="adresse">Adresse</label><br />
+            <textarea id="adresse" name="adresse" rows="4" cols="21" placeholder="Adresse"></textarea><br />
+
+    </fieldset>
+    </div>
+
+    <div class="conteneur2">
+        <fieldset>
+            <legend>Date de Naissance</legend>
+            <label for="jour">Jour</label>
+            <select id="jour">
+                <optgroup label="jour">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </optgroup>
+            </select><br /><br />
+
+            <label for="mois">Mois</label>
+            <select id="mois">
+                <optgroup label="mois">
+                    <option>janvier</option>
+                    <option>février</option>
+                    <option>mars</option>
+                    <option>avril</option>
+                    <option>mai</option>
+                    <option>juin</option>
+                    <option>juillet</option>
+                    <option>août</option>
+                    <option>septembre</option>
+                    <option>octobre</option>
+                    <option>novembre</option>
+                    <option>décembre</option>
+                </optgroup>
+            </select><br /><br />
+
+            <label for="année">Année</label>
+            <select id="année">
+                <optgroup label="année">
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                    <option>2007</option>
+                    <option>2006</option>
+                    <option>2005</option>
+                    <option>2004</option>
+                    <option>2003</option>
+                </optgroup>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Civilité</legend>
+            <label for="choix"></label>
+            <p>
+            Homme:<input type="radio" name="choix" /><br /><br />
+            Femme:<input type="radio" name="choix" />
+
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Informations Facultatives</legend>
+            <label for="description">Description</label><br />
+            <textarea id="description" name="description" rows="4" cols="21" placeholder="Description"></textarea><br />
+        </fieldset>
+
+    </div>
+    <div class="clear"></div>
+    <input type="submit" name="inscription" value="inscription" id="inscription">
+    </form>
+</body>
+</html>

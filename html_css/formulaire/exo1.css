@@ -1,0 +1,21 @@
+body{
+
+}
+.conteneur1, .conteneur2{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.conteneur1{
+    width: 25%;
+    margin-left: 200px;
+    padding: 50 50 1 50;
+}
+.conteneur2{
+    width: 25%;
+    margin-right: 200px;
+}
+#inscription{
+    margin-left: 34%;
+}
