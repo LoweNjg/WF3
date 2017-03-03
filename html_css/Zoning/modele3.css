@@ -1,0 +1,19 @@
+.gauche, .droite{
+    float: left;
+    width: 50%;
+    height: 60%;
+}
+.gauche{
+    background-color: blue;
+}
+.droite{
+    background-color: purple;
+}
+.clear{
+    clear: both;
+}
+.bas{
+    background-color: orange;
+    width: 100%;
+    height: 20%;
+}

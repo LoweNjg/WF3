@@ -1,0 +1,43 @@
+#Conteneur{
+    border: 0.1px solid #000;
+    width: 700px;
+    height: 638px;
+
+}
+header{
+    background-color: green;
+    width: 700px;
+    height: 100px;
+}
+nav{
+    background-color: purple;
+    width: 700px;
+}
+.a, .b, .c, .d{
+    float: left;
+    width: 340px;
+    height: 200px;
+}
+.a{
+    background-color: red
+}
+.b{
+    background-color: blue
+}
+.c{
+    background-color: black
+}
+.d{
+    background-color: pink
+}
+section{
+    margin: 10px 10px 10px 10px;
+}
+footer{
+    background-color: green;
+    width: 700px;
+    height: 100px;
+}
+.clear{
+    clear: both;
+}

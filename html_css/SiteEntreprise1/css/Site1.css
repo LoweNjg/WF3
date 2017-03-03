@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: yellow;
+    height: 100px;
+}
+.RecG1{
+    height: 350px;
+    width: 600px;
+    background-color: cyan;
+}
+.RecG2{
+    height: 350px;
+    width: 600px;
+    background-color: purple;
+}
+.HautGch{
+    float: left;
+    background-color: red;
+    height: 100px;
+    width: 950px;
+    margin-left: 400px;
+}
+.HautDrt{
+    float: left;
+    background-color: blue;
+    height: 100px;
+    width: 250px;
+}
+nav{
+    height: 30px;
+    background-color: grey;
+}
+.RecGch, .RecDrt{
+    float: left;
+    width:600px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.RecGch{
+    background-color: green;
+    margin-left: 400px;
+}
+
+.RecDrt{
+    background-color: pink;
+}
+footer{
+    background-color: yellow;
+    height: 100px;
+}
+.RecD1, .RecD2, .RecD3{
+    width: 600px;
+    height: 200px;
+}
+.RecD1{
+    background-color: red;
+}
+.RecD2{
+    background-color: blue;
+}
+.RecD3{
+    background-color: grey;
+}
+.Bas{
+    background-color: red;
+    width: 1200px;
+    height: 100px;
+    margin-left: 400px;
+}
+#Logo2{
+    float: left;
+}
+.titre{
+    margin-left: 20px;
+    width: 350px;
+    height: 100px;
+}
+header, nav{
+    border-bottom: 1px solid blue;
+}
+nav{
+    text-align: center;
+}
+a{
+    margin-left: 70px;
+}

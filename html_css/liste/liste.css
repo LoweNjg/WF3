@@ -4,7 +4,9 @@ ul.fruit{
 ul.fruit li{
     float: left;
     margin: 15px;
-    background: url(coeur.jpg) left center no-repeat;
+    background: url(fleche.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
     padding: 0 0 0 32px;
 }
 hr{

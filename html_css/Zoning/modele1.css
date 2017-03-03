@@ -1,0 +1,23 @@
+.zonehaut{
+    height: 7%;
+    background-color: red;
+}
+.zonegauche, .zonemilieux{
+    float: left;
+}
+.zonegauche{
+    width: 20%;
+    background-color: blue;
+    height: 90%;
+}
+.zonemilieux{
+    background-color: green;
+    width: 60%;
+    height: 90%;
+}
+.zonedroite{
+    float: right;
+    background-color: orange;
+    width: 20%;
+    height: 90%;
+}

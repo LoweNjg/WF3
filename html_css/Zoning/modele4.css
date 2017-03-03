@@ -1,0 +1,23 @@
+.haut{
+    background-color: green;
+    width: 100%;
+    height: 20%;
+}
+.menu{
+    background-color: purple;
+    width: 100%;
+}
+.milieux{
+    background-color: yellow;
+    width: 95%;
+    height:50%;
+    margin: 2% 1% 2% 2%;
+}
+#Conteneur{
+    border: 2px solid #000;
+}
+.bas{
+    background-color: green;
+    width: 100%;
+    height: 20%;
+}
