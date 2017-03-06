@@ -93,3 +93,7 @@ nav{
 a{
     margin-left: 70px;
 }
+#entreprise{
+  float: right;
+  width: 200px;
+}
