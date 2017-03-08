@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+header, footer{
+    height:100px;
+}
+.Haut,.Bas{
+    height: 80px;
+    width: 500px;
+    margin: 0 auto;
+}
+nav{
+    height: 30px;
+}
+.Menu{
+    width: 700px;
+    height: 25px;
+    margin: 0 auto;
+}
+section{
+    width: 1800px;
+    height: 720px;
+    margin: 0 auto;
+}
+.MilieuxHaut{
+    height: 350px;
+    width: 1800px;
+    margin: 0 auto;
+}
+.Cart1, .Cart4{
+    height: 360px;
+    width: 300px;
+}
+ .Cart2, .Cart3{
+     height: 170px;
+     width: 1200px;
+ }
+ .Contenue{
+     float: left;
+     height: 180px;
+     width: 1200px;
+ }
+.Cart1{
+     float: left;
+ }
+.Cart4{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+    background: url(videoBackground.jpg) no-repeat;
+    background-size: cover;
+}
+.Part1{
+    float: left;
+    height: 340px;
+    width: 900px;
+    color: white;
+}
+.Part2{
+    float: left;
+    height: 340px;
+    width: 900px;
+    color: white;
+}
+#img1{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+#img2{
+    float: right;;
+    width: 300px;
+    height: 300px;
+}
+h1{
+    color: white;
+}
+.img3{
+    width: 300px;
+    height: 360px;
+}
+.text1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.text1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+a{
+    margin-left: 60px;
+    color: white;
+}
