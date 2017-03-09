@@ -27,6 +27,7 @@ section{
     width: 1800px;
     height: 720px;
     margin: 0 auto;
+    background: rgba (123 ,123 ,123 ,0.9);
 }
 .MilieuxHaut{
     height: 350px;
@@ -98,11 +99,6 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 60px;
-}
-.text1:hover{
-    background-color: black;
-    color: white;
-    transition: 0.5s;
 }
 a{
     margin-left: 60px;
